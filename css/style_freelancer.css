@@ -9,6 +9,7 @@
     --color_6: #ab622e;
     --color_7: #d39357;
     --color_8: #f9dfaf;
+    --color_8rgba: rgba(249, 223, 175, .7);
     --blanco:  #FFFFFF;
     --negro:   #212121;
 }
@@ -28,6 +29,11 @@
 
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -43,6 +49,14 @@ body {
 .titulo {
     font-size: 3.8rem;
     text-align: center;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3,h4,h5,h6 {
+    font-size: 1.8rem;
 }
 
 /*para cambiar las dimensiones de la letra 
@@ -80,10 +94,90 @@ se utiliza la propiedad :*/
     color: var(--negro);
 }
 
+.hero {
+    background-image: url('../hero_background/ballons.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    padding: 2rem;
+    width: 100%;
+    position: relative;
+}
+
+.hcontent {
+    position: absolute;
+    background-color: var(--color_8rgba);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color_1);
+}
+
+.hcontent h2 {
+    font-size: 1.8rem;
+}
+
+.imgp {
+    width: 15rem;/*width: 35rem*/
+    height: 23rem;/*height: 16rem;*/
+    display: flex;
+    flex-direction: column;/*flex-direction: row;*/
+    justify-content: center;/*justify-content: space-around;*/
+    align-items: center;
+    position: relative;
+    margin: 1rem auto;
+    /*border: 1px solid #000;*/
+}
+
+.imgp p {
+    position: absolute;
+    right: 0.5;/*right: 0;*/
+    bottom: 0;
+    font-size: 1.2rem;
+    /*border: 1px solid #000;*/
+}
+
+.hcontent a {
+    text-decoration: none;
+    padding: 1rem;
+    background-color: var(--color_5);
+    color: var(--blanco);
+    text-transform: uppercase;
+    border-radius: .5rem;
+    transition: all .5s ease-out;
+}
+
+.hcontent a:hover {
+    -webkit-box-shadow: inset -1px 2px 14px 3px var(--color_1);
+    -moz-box-shadow: inset -1px 2px 14px 3px var(--color_1);
+    box-shadow: inset -1px 2px 14px 3px var(--color_1);
+    color: var(--color_7);
+}
+
 @media (min-width: 768px) {
     .main-nav {
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .hcontent h2 {
+        font-size: 2.8rem;
+    }
+
+    .imgp {
+        width: 35rem;
+        height: 16rem;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .imgp p {
+        right: 0;
     }
 }
 
