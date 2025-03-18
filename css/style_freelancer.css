@@ -1,3 +1,18 @@
+/*variables en css se definen con el seudoelemento :root*/
+
+:root {
+    --color_1: #361e11;
+    --color_2: #59311d;
+    --color_3: #ab622e;
+    --color_4: #61432e;
+    --color_5: #946955;
+    --color_6: #ab622e;
+    --color_7: #d39357;
+    --color_8: #f9dfaf;
+    --blanco:  #FFFFFF;
+    --negro:   #212121;
+}
+
 /*
     hoy en dia la unidad de madida mas
     utilizada ya no es : em o px.
@@ -17,6 +32,11 @@ html {
 
 body {
     font-size: 10px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 /*Para centrar un texto utilizamos :*/
