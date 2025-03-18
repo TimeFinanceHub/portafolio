@@ -56,21 +56,33 @@ se utiliza la propiedad :*/
 }
 
 .container {
-    width: 120rem;
+    width: auto;
     margin: 0 auto;
+    /*border: 1px solid #000; debugging*/
+    -webkit-box-shadow: inset -1px 2px 14px 3px var(--color_1);
+    -moz-box-shadow: inset -1px 2px 14px 3px var(--color_1);
+    box-shadow: inset -1px 2px 14px 3px var(--color_1);
 }
 
 .main-nav {
-    padding: 1rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .main-nav a {
-    background-color: var(--color_7);
     text-decoration: none;
     color: var(--color_8);
-    -webkit-text-shadow: 0px 4px 12px 1px var(--blanco);
-    -moz-text-shadow: 0px 4px 12px 1px var(--blanco);
-    text-shadow: 0px 4px 12px 1px var(--blanco);
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    transition: all .8s ease-in;
+}
+
+.main-nav a:hover {
+    background-color: var(--color_7);
+    -webkit-box-shadow: 0px 4px 12px 1px var(--blanco);
+    -moz-box-shadow: 0px 4px 12px 1px var(--blanco);
+    box-shadow: 0px 4px 12px 1px var(--blanco);
+    color: var(--negro);
 }
