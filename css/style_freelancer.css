@@ -50,3 +50,16 @@ se utiliza la propiedad :*/
 .titulo span {
     font-size: 2rem;
 }
+
+.nav-bg {
+    background-color: var(--color_3);
+}
+
+.container {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.main-nav {
+    
+}
