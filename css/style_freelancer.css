@@ -58,6 +58,7 @@ se utiliza la propiedad :*/
     box-shadow: inset -1px 2px 14px 3px var(--color_1);
     border: 1px solid #000;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
 }
 
@@ -83,5 +84,15 @@ se utiliza la propiedad :*/
     .main-nav {
         flex-direction: row;
         flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1000px) {
+    .main-nav {
+        flex-wrap: nowrap
+    }
+
+    .main-nav a {
+        font-size: 1.8rem;
     }
 }
