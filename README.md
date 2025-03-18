@@ -32,12 +32,6 @@ Si bien agradezco los comentarios y sugerencias, ten en cuenta que estos proyect
 
 ¡Gracias por tu comprensión y por tomarte el tiempo de explorar mi trabajo! Espero que lo encuentres informativo, incluso en su estado inacabado.
 
-**Contacto:**
-
-Si hay algo que quieras preguntar, no dudes en hacerlo.
-
-[Tu información de contacto - por ejemplo, correo electrónico, perfil de LinkedIn]
-
 ---
 
 <a name="english-version"></a>
