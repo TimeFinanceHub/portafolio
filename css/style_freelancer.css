@@ -60,6 +60,17 @@ se utiliza la propiedad :*/
     margin: 0 auto;
 }
 
+.main-nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
 .main-nav a {
     background-color: var(--color_7);
+    text-decoration: none;
+    color: var(--color_8);
+    -webkit-text-shadow: 0px 4px 12px 1px var(--blanco);
+    -moz-text-shadow: 0px 4px 12px 1px var(--blanco);
+    text-shadow: 0px 4px 12px 1px var(--blanco);
 }
