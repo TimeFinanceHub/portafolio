@@ -1,4 +1,32 @@
-/*Para centrar un texto utilizamos*/
-h1 {
+/*
+    hoy en dia la unidad de madida mas
+    utilizada ya no es : em o px.
+    lo recomendable es utilizar rem
+
+    las siguientes lineas de codigo
+    para los selectores html y body
+    hacen que la unidad de medida rem
+    sea muy facil de utilizar 1rem = 10px
+    y tienen la ventaja de adaptarse mejor a pantallas
+    con una densidad de pixeles muy alta
+*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 10px;
+}
+
+/*Para centrar un texto utilizamos :*/
+.titulo {
     text-align: center;
+    font-size: 3.8rem;
+}
+
+/*para cambiar las dimensiones de la letra 
+se utiliza la propiedad :*/
+.titulo span {
+    font-size: 2rem;
 }
