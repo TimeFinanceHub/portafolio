@@ -60,6 +60,6 @@ se utiliza la propiedad :*/
     margin: 0 auto;
 }
 
-.main-nav {
-    
+.main-nav a {
+    background-color: var(--color_7);
 }
