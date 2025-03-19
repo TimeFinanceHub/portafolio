@@ -160,7 +160,7 @@ se utiliza la propiedad :*/
     /*border: 1px solid #000;*/
 }
 
-.hcontent a, header button {
+.hcontent a, header button , header .cash .app{
     text-decoration: none;
     padding: 1rem;
     background-color: var(--color_5);
@@ -170,7 +170,7 @@ se utiliza la propiedad :*/
     transition: all .5s ease-out;
 }
 
-.hcontent a:hover , header button:hover {
+.hcontent a:hover , header button:hover , header .cash .app:hover{
     cursor: pointer;
     -webkit-box-shadow: inset -1px 2px 14px 3px var(--color_1);
     -moz-box-shadow: inset -1px 2px 14px 3px var(--color_1);
