@@ -368,9 +368,9 @@ se utiliza la propiedad :*/
 }
 
 @media (min-width: 1000px) {
-    .main-nav {
+    /*.main-nav {
         flex-wrap: nowrap
-    }
+    }*/
 
     .main-nav a {
         font-size: 1.8rem;
